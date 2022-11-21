@@ -1,6 +1,5 @@
 import { getJoke } from './joke';
-// import './styles/main.scss';
-import './styles/test.css';
+import './styles/main.scss';
 const text = document.createElement('span');
 text.innerText = getJoke();
 text.classList = 'text-red';
