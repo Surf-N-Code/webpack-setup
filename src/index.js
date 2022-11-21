@@ -1,4 +1,2 @@
-function logit() {
-  console.log('logit');
-}
-export default logit;
+import { getJokes } from './joke';
+console.table(getJokes());
