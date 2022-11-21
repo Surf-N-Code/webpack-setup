@@ -1,6 +1,6 @@
 import faker from 'faker';
 
-export function getJokes() {
+export function getJoke() {
   const jokes = [];
 
   for (let i = 0; i < 10; i++) {
